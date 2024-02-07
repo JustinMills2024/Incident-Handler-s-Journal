@@ -62,5 +62,73 @@ Once the attackers gained access, they deployed their ransomware, which encrypte
   </tr>
 </table>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Incident Report</title>
+<style>
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+</style>
+</head>
+<body>
+
+<h2>Incident Report</h2>
+
+<table>
+  <tr>
+    <th>Date</th>
+    <td>Feb 7, 2024</td>
+  </tr>
+  <tr>
+    <th>Entry</th>
+    <td>#2</td>
+  </tr>
+  <tr>
+    <th>Description</th>
+    <td>Investigate a suspicious file hash</td>
+  </tr>
+  <tr>
+    <th>Tool(s) used</th>
+    <td>For this activity, I used VirusTotal, which is an investigative tool that analyzes files and URLs for malicious content such as viruses, worms, and trojans. VirusTotal is a very helpful tool to use if you want to quickly check if an indicator of compromise like a website or file has been reported as malicious. For this activity, I used VirusTotal to analyze a file hash, which was reported as malicious.</td>
+  </tr>
+  <tr>
+    <th>Incident Phase</th>
+    <td>Detection and Analysis</td>
+  </tr>
+  <tr>
+    <th>The 5 W's</th>
+    <td>
+      <b>Who:</b> An unknown malicious actor<br>
+      <b>What:</b> An email sent to an employee contained a malicious file attachment with the SHA-256 file hash of 54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b<br>
+      <b>Where:</b> An employee's computer at a financial services company<br>
+      <b>When:</b> At 1:20 p.m., an alert was sent to the organization's SOC after the intrusion detection system detected the file<br>
+      <b>Why:</b> An employee was able to download and execute a malicious file attachment via e-mail.
+    </td>
+  </tr>
+  <tr>
+    <th>Additional notes</th>
+    <td>How can this incident be prevented in the future? We consider improving security awareness training so that employees are careful with what they click on?</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
 
 
