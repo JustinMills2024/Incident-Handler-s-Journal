@@ -1,7 +1,7 @@
 <h1>Incident Handler's Journal</h1>
 
 
-<h2>Incident #1 </h2>
+<h2>Scenario</h2>
 In this lab, the scenario was a small U.S. health care clinic specializing in delivering primary-care services experienced a security incident on a Tuesday morning, at approximately 9:00 a.m. 
 
 Several employees reported that they were unable to use their computers to access files like medical records. Business operations shut down because employees were unable to access the files and software needed to do their job.
@@ -19,6 +19,8 @@ Once the attackers gained access, they deployed their ransomware, which encrypte
 
 
 <h2>Incident #1 </h2>
+
+
 <table>
   <tr>
     <td>Date</td>
@@ -62,32 +64,12 @@ Once the attackers gained access, they deployed their ransomware, which encrypte
   </tr>
 </table>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Incident Report</title>
-<style>
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
+</body>
+</html>
 
-table, th, td {
-  border: 1px solid black;
-  padding: 8px;
-  text-align: left;
-}
 
-th {
-  background-color: #f2f2f2;
-}
-</style>
-</head>
-<body>
 
-<h2>Incident Report</h2>
+<h2>Incident Report #2 </h2>
 
 <table>
   <tr>
